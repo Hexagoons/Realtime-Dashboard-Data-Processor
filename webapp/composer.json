@@ -1,0 +1,17 @@
+{
+    "name": "webapp/webapp",
+    "require": {
+        "php" : "^7.0",
+        "predis/predis": "^1.1",
+        "nesbot/carbon": "^2.29"
+    },
+    "autoload": {
+        "files": [
+            "app/functions/helpers.php",
+            "app/functions/database.php",
+            "app/functions/routing.php",
+            "app/functions/files.php",
+            "app/functions/validation.php"
+        ]
+    }
+}

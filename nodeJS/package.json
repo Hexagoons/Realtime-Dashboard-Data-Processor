@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "dependencies": {
+        "mysql": "^2.18.1",
+        "sha.js": "^2.4.11",
+        "socket.io": "^2.3.0"
+    },
+    "scripts": {
+        "server": "node server.js"
+    }
+}
